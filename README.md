@@ -12,19 +12,18 @@ This project builds a regression model that estimates individual medical insuran
 - Target: `charges`
 
 ## Workflow
-1. **Data cleaning:** [e.g. checked for missing values and duplicates, fixed data types]
+1. **Data cleaning:**checked for missing values and duplicates, fixed data types
 2. **EDA:** explored feature distributions and their relationship with charges using plots
-3. **Preprocessing:** [e.g. encoded categorical columns such as sex, smoker, region]
+3. **Preprocessing:** encoded categorical columns such as sex, smoker, region
 4. **Modeling:** trained a Linear Regression model with scikit-learn on an [80/20] train-test split
 5. **Evaluation:** measured performance on the test set
 
 ## Key Findings
-- [e.g. Smokers pay significantly higher charges than non-smokers]
-- [e.g. Charges tend to increase with age]
-- [e.g. Higher BMI is associated with higher charges, especially for smokers]
+-  Smokers pay significantly higher charges than non-smokers
+- Charges tend to increase with age
+- Higher BMI is associated with higher charges, especially for smokers
 
 
-[One or two sentences: what this means, e.g. the model explains about X% of the variation in charges.]
 
 ## Limitations & Next Steps
 - A linear model can't fully capture non-linear effects (e.g. the combined effect of smoking and BMI).
@@ -37,4 +36,4 @@ Python, pandas, NumPy, matplotlib / seaborn, scikit-learn, Jupyter Notebook
 1. Clone this repository
 2. Download the dataset from the Kaggle link above and place it in the project folder
 3. Install dependencies: `pip install pandas numpy matplotlib seaborn scikit-learn`
-4. Open `[your-notebook-name].ipynb` in Jupyter and run all cells
+4. Open it in Jupyter and run all cells
